@@ -9,6 +9,7 @@ import java.io.IOException;
 
 public class OpenWebsite extends BaseTest {
 
+    //Open Browser and Hit the Base URL
     @Test
     public void OpenBrowser() throws IOException {
         String url_Address = utility.getValue("baseURL");

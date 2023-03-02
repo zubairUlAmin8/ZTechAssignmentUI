@@ -3,6 +3,7 @@ package web_pages;
 import Utils.utility;
 import Utils.waits;
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import web_elements.HomepageElements;
 import web_elements.SignupElements;
@@ -71,12 +72,16 @@ public class SignupPage extends BasePage {
     }
 
     public void completeRegistration() {
-        waits.waitForElements(getDriver(), signupElements.eventPrivacyPolicy, 1000);
-        signupElements.eventPrivacyPolicy.click();
+        try {
+            signupElements.eventPrivacyPolicy.click();
+        } catch(StaleElementReferenceException e) {
+            getDriver().navigate().refresh();
+            getDriver().findElement(By.cssSelector("eventPrivacyPolicy")).click();
+        }
         signupElements.completeRegistrationBtn.click();
 
     }
-
+    //This method take the screenshot and saved in the given directory.
     public void takeScreenshot() throws Exception {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();

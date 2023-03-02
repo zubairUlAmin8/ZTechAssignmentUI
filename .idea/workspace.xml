@@ -5,32 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1ba322f-6b34-453d-a1fb-df6c29b5d03b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/DriverSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/waits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/path_repo/HomepagePR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/path_repo/LandingPagePR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/path_repo/SignupPR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web_elements/HomepageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web_elements/LandingPageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web_elements/SignupElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web_pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web_pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web_pages/LandingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web_pages/SignupPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webTestCase/OpenWebsite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webTestCase/PostOnLiveWall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webTestCase/SignOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webTestCase/SignUpAsParticipant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestResults/FIRST_16-52-36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestResults/FIRST_16-57-55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestResults/FIRST_17-13-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestResults/FIRST_17-16-49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readMe.Md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/testData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/testData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/SignupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_pages/SignupPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/OpenWebsite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/OpenWebsite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/SignOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/SignOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/SignUpAsParticipant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/SignUpAsParticipant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
