@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SignUpAsParticipant" verbose="1" >
+<test name="Regression1">
+    <classes>
+        <class name="webTestCase.OpenWebsite"/>
+        <class name="webTestCase.SignUpAsParticipant"/>
+        <class name="webTestCase.PostOnLiveWall"/>
+        <class name="webTestCase.SignOut"/>
+    </classes>
+</test>
+</suite>
